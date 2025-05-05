@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #181a1b;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #23272a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: #c671ff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+#profile-info, #now-playing {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #23272a;
+    border-radius: 8px;
+}
+
+.track-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.track-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.track-details {
+    flex: 1;
+}
+
+.track-name {
+    font-weight: bold;
+    color: #fff;
+}
+
+.artist-name {
+    color: #b3b3b3;
+    font-size: 0.9em;
+}
+
+.album-name {
+    color: #b3b3b3;
+    font-size: 0.9em;
+}
+
+.now-playing-indicator {
+    color: #1db954;
+    font-weight: bold;
+    margin-left: 10px;
+} 
+
+.profile-info-card {
+    background: #23272a;
+    border-radius: 10px;
+    padding: 18px 0px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info-row {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  
+  .profile-info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1em;
+    color: #b3b3b3;
+  }
+  
+  .profile-info-item .icon {
+    font-size: 1.3em;
+    color: #a259ff;
+  }
+
+.profile-info-with-photo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #330055;
+    background: #181a1b;
+}
+
+.profile-info-data {
+    flex: 1;
+} 
